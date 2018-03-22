@@ -1,0 +1,19 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:W1CZ1051  a         :Work ;
+    skos:prefLabel      "མྱུར་མཛད་ཡེ་ཤེས་མགོན་པོ་ཕྱག་དྲུག་པའི་སྒོ་ནས་ཐུན་པའི་གཏོར་ཆེན་བྱེད་ལུགས།"@bo , "myur mdzad ye shes mgon po phyag drug pa'i sgo nas thun pa'i gtor chen byed lugs/"@bo-x-ewts ;
+    :creatorMainAuthor  bdr:P719 ;
+    :workTitle          [ a                   :WorkOtherTitle ;
+                          <http://www.w3.org/2000/01/rdf-schema#label>
+                              "བཀའ་སྲུང་གཙོ་མོ་འདོད་ཁམས་དབང་ཕྱུག་མ་ལ་བརྟེན་པའི་གདབ་ལས་ཇི་ལྟར་བྱ་བའི་རིམ་པ་དང། ཆོས་སྐྱོང་དྲེག་པ་ལྕམ་དྲལ་གྱི་བསྙེན་སྒྲུབ་བསད་པ་གཅིག་ཏུ་དྲིལ་བའི་གདམས་པ་འཇིགས་རུང་མེའི་སྤུ་གྲི།"@bo , "bka' srung gtso mo 'dod khams dbang phyug ma la brten pa'i gdab las ji ltar bya ba'i rim pa dang/ chos skyong dreg pa lcam dral gyi bsnyen sgrub bsad pa gcig tu dril ba'i gdams pa 'jigs rung me'i spu gri/"@bo-x-ewts
+                        ] ;
+    adm:status          bdr:StatusReleased .
