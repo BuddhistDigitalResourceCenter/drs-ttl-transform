@@ -4,7 +4,7 @@
   <groupId>io.bdrc</groupId>
   <artifactId>drsttl</artifactId>
   <packaging>jar</packaging>
-  <version>0.2.0</version>
+  <version>0.1.0</version>
   <name>drsttl</name>
   <url>https://github.com/BuddhistDigitalResourceCenter/drs-ttl-transform</url>
   <build>
